@@ -1,0 +1,108 @@
+/* .block {
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    background-color: yellow;
+}
+h1{
+    background-color:  black;
+    color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+    .block {
+        background-color: orange;
+    }
+
+    h1 {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .block {
+        background-color: green;
+    }
+
+    h1 {
+        background-color: gray;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .block {
+        background-color: black;
+    }
+
+    h1 {
+        background-color: blue;
+    }
+} */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card__wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item{
+    max-width: 15%;
+    text-align: center;
+}
+
+/* 
+@media screen and (max-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+
+    .item{
+        max-width: 20%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container{
+        max-width: 996px;
+    }
+
+    .item{
+        max-width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 720px;
+    }
+
+    .item{
+        max-width: 48%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container{
+        max-width: 540px;
+    }
+
+    .item{
+        max-width: 100%;
+    }
+} */
